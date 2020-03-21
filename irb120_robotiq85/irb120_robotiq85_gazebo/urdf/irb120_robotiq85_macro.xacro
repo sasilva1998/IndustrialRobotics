@@ -13,4 +13,12 @@
 		<origin xyz="0 0 0" rpy="0 0 0" />
 	</xacro:robotiq_85_gripper>
 
+	<link name="joint_6" />
+
+	<joint name="joint6-tool0" type="fixed">
+	<parent link="tool0" />
+	<child link="joint_6" />
+	<origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+	</joint>
+
 </robot>
