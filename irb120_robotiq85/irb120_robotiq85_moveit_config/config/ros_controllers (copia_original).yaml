@@ -8,6 +8,7 @@ generic_hw_control_loop:
   cycle_time_error_threshold: 0.01
 # Settings for ros_control hardware interface
 hardware_interface:
+  type: hardware_interface/PositionJointInterface
   joints:
     - joint_1
     - joint_2
